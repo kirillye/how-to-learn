@@ -151,6 +151,7 @@
 
 
 .table__heading{
+   margin: 0;
    font-size: 24px;
    font-weight: 600;
    line-height: 1.15;
@@ -212,9 +213,15 @@
 }
 
 .two-columns__info{
+   margin: 0;
    line-height: 34px;
    font-size: 24px;
 }
+
+.two-columns__info:not(:last-child){
+   margin-bottom: 30px;
+}
+
 
 .two-columns__span-accent{
    font-weight: 600;
