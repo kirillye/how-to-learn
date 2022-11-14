@@ -153,10 +153,6 @@
   line-height: 1.2;
 }
 
-.table__text_place_bottom {
-  margin-top: 20px;
-}
-
 .table__cell_theme_dark {
   width: 200px;
   margin-right: 0;
@@ -294,14 +290,11 @@
   color: #fff;
 }
 
-.footer__column_size_l {
-  flex-basis: 711px;
-}
-
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: 711px;
 }
 
 .footer__author {
